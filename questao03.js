@@ -9,5 +9,7 @@ function cadastrarUsuario(){
     var frase = `${nome} nasceu no dia ${dataNascimento} e mora na rua ${rua}, número ${numero}, na cidade ${cidade} do estado ${estado}.`
 
     document.getElementById("resultado").innerText = frase
+    document.getElementById("resultado").style.color = "green"
+    document.getElementById("resultado").style.fontSize = "24px"
     
 }
